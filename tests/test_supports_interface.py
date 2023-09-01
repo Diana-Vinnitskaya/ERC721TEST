@@ -1,5 +1,5 @@
 import pytest
-from brownie import MyERC721, accounts, interface, ERC721
+from brownie import MyERC721, accounts
 
 @pytest.fixture
 def my_erc721_contract():
